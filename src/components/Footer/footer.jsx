@@ -109,7 +109,8 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="border-t border-gray-700 pt-4">
           <p className="text-center text-sm">
-            All rights reserved @ Unitech IT Solutions 2024
+            All rights reserved @ Unitech IT Solutions{" "}
+            {new Date().getFullYear()}
           </p>
         </div>
       </div>
