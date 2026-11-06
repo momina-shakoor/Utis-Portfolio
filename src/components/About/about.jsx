@@ -2,12 +2,14 @@ import React from "react";
 import CountUp from "react-countup";
 
 const About = () => {
+  const yearsInBusiness = new Date().getFullYear() - 2001;
+
   return (
     <div className="font-montserrat bg-white">
       <div className="w-full">
         <ul className="flex flex-col md:flex-row flex-wrap justify-center items-center p-2 text-blue-900 font-medium">
           <li className="p-3 text-xl md:text-2xl">
-            <CountUp end={25} duration={2} />+ Years in Business
+            <CountUp end={yearsInBusiness} duration={2} />+ Years in Business
           </li>
           <li className="p-3 text-xl md:text-2xl">
             <CountUp end={200} duration={2} />+ Satisfied Clients
